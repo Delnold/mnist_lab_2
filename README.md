@@ -11,19 +11,23 @@ This project implements a Convolutional Neural Network (CNN) for classifying han
 
 ## Visualizations
 
-The `png` directory contains the following visualizations:
-
 ### Training History Plots
-- `training_history_adam_categorical_crossentropy.png` - Training metrics using Adam optimizer with categorical crossentropy
-- `training_history_sgd_categorical_crossentropy.png` - Training metrics using SGD optimizer with categorical crossentropy
-- `training_history_rmsprop_categorical_crossentropy.png` - Training metrics using RMSprop optimizer with categorical crossentropy
-- `training_history_adam_mean_squared_error.png` - Training metrics using Adam optimizer with mean squared error
+
+| Optimizer | Loss Function | Image |
+|-----------|---------------|-------|
+| Adam | categorical_crossentropy | ![Adam CC Training History](png/training_history_adam_categorical_crossentropy.png) |
+| SGD | categorical_crossentropy | ![SGD CC Training History](png/training_history_sgd_categorical_crossentropy.png) |
+| RMSprop | categorical_crossentropy | ![RMSprop CC Training History](png/training_history_rmsprop_categorical_crossentropy.png) |
+| Adam | mean_squared_error | ![Adam MSE Training History](png/training_history_adam_mean_squared_error.png) |
 
 ### Confusion Matrices
-- `confusion_matrix_adam_categorical_crossentropy.png` - Confusion matrix for Adam + categorical crossentropy
-- `confusion_matrix_sgd_categorical_crossentropy.png` - Confusion matrix for SGD + categorical crossentropy
-- `confusion_matrix_rmsprop_categorical_crossentropy.png` - Confusion matrix for RMSprop + categorical crossentropy
-- `confusion_matrix_adam_mean_squared_error.png` - Confusion matrix for Adam + mean squared error
+
+| Optimizer | Loss Function | Image |
+|-----------|---------------|-------|
+| Adam | categorical_crossentropy | ![Adam CC Confusion Matrix](png/confusion_matrix_adam_categorical_crossentropy.png) |
+| SGD | categorical_crossentropy | ![SGD CC Confusion Matrix](png/confusion_matrix_sgd_categorical_crossentropy.png) |
+| RMSprop | categorical_crossentropy | ![RMSprop CC Confusion Matrix](png/confusion_matrix_rmsprop_categorical_crossentropy.png) |
+| Adam | mean_squared_error | ![Adam MSE Confusion Matrix](png/confusion_matrix_adam_mean_squared_error.png) |
 
 ## Model Architecture
 
